@@ -11,9 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
+    "node-vibrant": "^3.0.0-alpha.2",
     "react": "^15.5.4",
     "react-color": "^2.11.7",
     "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1",
     "reactcss": "^1.2.2"
   },
   "devDependencies": {

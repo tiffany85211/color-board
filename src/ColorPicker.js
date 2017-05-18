@@ -8,9 +8,9 @@ class ColorPicker extends React.Component {
     this.state = {
       displayColorPicker: false,
       color: {
-        r: '241',
-        g: '112',
-        b: '19',
+        r: '230',
+        g: '230',
+        b: '230',
         a: '1',
       },
     };
@@ -44,6 +44,7 @@ class ColorPicker extends React.Component {
           padding: '5px',
           background: '#fff',
           borderRadius: '1px',
+          boxShadow: '0 0 0 1px rgba(0,0,0,.1)',
           display: 'inline-block',
           cursor: 'pointer',
         },
