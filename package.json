@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://tiffany85211.github.io/color-board/",
   "scripts": {
     "start": "node server.js",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
